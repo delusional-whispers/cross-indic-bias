@@ -23,7 +23,7 @@ As Large Language Models (LLMs) are increasingly deployed across India's multili
 ### 2.1 Length-Normalized Sequence Log-Probability
 Standard sequence log-likelihood penalizes morphologically rich and multi-byte Indic scripts due to tokenizer fragmentation (Devanagari and Telugu subword token inflation). To ensure equitable cross-lingual comparison, we implement length-normalized sequence log-probability for target sequence tokens $T = (t_1, t_2, \dots, t_M)$ given prefix/context $C$:
 
-$$\text{Score}(S) = \frac{1}{|T|} \sum_{j=1}^{|T|} \log P_\theta(t_j \mid t_{<j}, C)$$
+$Score(S) = \frac{1}{|T|} \sum_{j=1}^{|T|} \log P_\theta(t_j \mid t_{<j}, C)$
 
 ### 2.2 Stereotype Preference Score (SPS)
 For $N$ counterfactual pairs in language $L \in \{\text{en}, \text{hi}, \text{te}\}$:
