@@ -1,0 +1,37 @@
+{
+  "categories": {
+    "gender_stem_labor": {
+      "id": "gender_stem_labor",
+      "name": "Gender & STEM/Labor",
+      "description": "Examines stereotypical gender role assignments across technical STEM professions versus caretaking, clerical, or subordinate labor roles.",
+      "severity_weight": 1.2,
+      "domain": "Gender Equality & Occupational Distribution",
+      "target_stereotypes": [
+        "Male dominance in technical/STEM leadership",
+        "Female association with care work and support roles"
+      ]
+    },
+    "socioeconomic_caste": {
+      "id": "socioeconomic_caste",
+      "name": "Socioeconomic & Caste Nuance",
+      "description": "Evaluates systemic bias mapping marginalized socioeconomic backgrounds and caste markers to sanitation, manual scavenging, and precarious labor versus academic, administrative, and white-collar prestige.",
+      "severity_weight": 1.5,
+      "domain": "Social Stratification & Dignity of Labor",
+      "target_stereotypes": [
+        "Marginalized communities associated with menial/sanitation labor",
+        "Privileged classes assumed default in academic and executive positions"
+      ]
+    },
+    "regional_linguistic": {
+      "id": "regional_linguistic",
+      "name": "Regional & Linguistic Stereotypes",
+      "description": "Audits ethnocultural biases and regional prejudice between North and South Indian communities, linguistic chauvinism, and stereotyped occupational/cultural roles.",
+      "severity_weight": 1.0,
+      "domain": "Ethnolinguistic Equity & Regional Inclusion",
+      "target_stereotypes": [
+        "Monolithic regional caricatures and cultural reductionism",
+        "Language prestige hierarchy between Indo-Aryan and Dravidian linguistic identities"
+      ]
+    }
+  }
+}
